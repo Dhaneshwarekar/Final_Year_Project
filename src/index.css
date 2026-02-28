@@ -1,0 +1,26 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --crime-dark: #0B2447;
+  --crime-medium: #1C3A5F;
+  --crime-light: #2E5C8A;
+  --crime-glow: #9AC7FF;
+  --crime-soft: #C3D9FF;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade {
+  animation: fadeIn 1s ease-out;
+}

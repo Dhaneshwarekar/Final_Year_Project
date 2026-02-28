@@ -1,0 +1,161 @@
+.desktop-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  padding: 8px 4px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.desktop-icon:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.desktop-icon:active {
+  transform: scale(0.98);
+}
+
+.icon-wrapper {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border: 2px solid;
+  transition: all 0.3s ease;
+}
+
+/* Color variations */
+.icon-wrapper-red {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: rgba(239, 68, 68, 0.5);
+}
+
+.icon-wrapper-red:hover {
+  background: rgba(239, 68, 68, 0.3);
+  border-color: rgb(239, 68, 68);
+}
+
+.icon-wrapper-blue {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(59, 130, 246, 0.5);
+}
+
+.icon-wrapper-blue:hover {
+  background: rgba(59, 130, 246, 0.3);
+  border-color: rgb(59, 130, 246);
+}
+
+.icon-wrapper-cyan {
+  background: rgba(6, 182, 212, 0.2);
+  border-color: rgba(6, 182, 212, 0.5);
+}
+
+.icon-wrapper-cyan:hover {
+  background: rgba(6, 182, 212, 0.3);
+  border-color: rgb(6, 182, 212);
+}
+
+.icon-wrapper-green {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: rgba(34, 197, 94, 0.5);
+}
+
+.icon-wrapper-green:hover {
+  background: rgba(34, 197, 94, 0.3);
+  border-color: rgb(34, 197, 94);
+}
+
+.icon-wrapper-purple {
+  background: rgba(168, 85, 247, 0.2);
+  border-color: rgba(168, 85, 247, 0.5);
+}
+
+.icon-wrapper-purple:hover {
+  background: rgba(168, 85, 247, 0.3);
+  border-color: rgb(168, 85, 247);
+}
+
+.icon-wrapper-orange {
+  background: rgba(249, 115, 22, 0.2);
+  border-color: rgba(249, 115, 22, 0.5);
+}
+
+.icon-wrapper-orange:hover {
+  background: rgba(249, 115, 22, 0.3);
+  border-color: rgb(249, 115, 22);
+}
+
+.icon-wrapper-amber {
+  background: rgba(245, 158, 11, 0.2);
+  border-color: rgba(245, 158, 11, 0.5);
+}
+
+.icon-wrapper-amber:hover {
+  background: rgba(245, 158, 11, 0.3);
+  border-color: rgb(245, 158, 11);
+}
+
+.icon-wrapper-gray {
+  background: rgba(107, 114, 128, 0.2);
+  border-color: rgba(107, 114, 128, 0.5);
+}
+
+.icon-wrapper-gray:hover {
+  background: rgba(107, 114, 128, 0.3);
+  border-color: rgb(107, 114, 128);
+}
+
+.icon-wrapper-pink {
+  background: rgba(236, 72, 153, 0.2);
+  border-color: rgba(236, 72, 153, 0.5);
+}
+
+.icon-wrapper-pink:hover {
+  background: rgba(236, 72, 153, 0.3);
+  border-color: rgb(236, 72, 153);
+}
+
+.icon-wrapper-yellow {
+  background: rgba(234, 179, 8, 0.2);
+  border-color: rgba(234, 179, 8, 0.5);
+}
+
+.icon-wrapper-yellow:hover {
+  background: rgba(234, 179, 8, 0.3);
+  border-color: rgb(234, 179, 8);
+}
+
+.icon-emoji {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.icon-label {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  word-break: break-word;
+  line-height: 1.2;
+  color: #e5e7eb;
+}
+
+/* Text color utilities */
+.text-red-400 { color: #f87171; }
+.text-blue-400 { color: #60a5fa; }
+.text-cyan-400 { color: #22d3ee; }
+.text-green-400 { color: #4ade80; }
+.text-purple-400 { color: #c084fc; }
+.text-orange-400 { color: #fb923c; }
+.text-amber-400 { color: #fbbf24; }
+.text-gray-400 { color: #9ca3af; }
+.text-pink-400 { color: #f472b6; }
+.text-yellow-400 { color: #facc15; }
